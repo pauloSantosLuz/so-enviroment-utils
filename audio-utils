@@ -1,0 +1,5 @@
+#turn phone loopback on
+pactl load_module module-loopback latency_msec=1
+
+#turn phone loopback off
+pactl unload_module module-loopback
